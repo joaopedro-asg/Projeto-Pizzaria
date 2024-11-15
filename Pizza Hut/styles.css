@@ -1,0 +1,48 @@
+/* INÍCIO DO CSS DAS TABELAS DO CARDÁPIO*/
+table{
+    background-color: black;
+    margin-left: auto; 
+    margin-right: auto;
+    border-color: burlywood;
+
+    
+}
+
+caption{
+    font-size: 20px;
+    background-image: linear-gradient(to right, #e31714, red, #e31714);
+    color: rgb(black);
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+         1px  1px 0 #ffffff; 
+    ;
+}
+
+thead{
+    background-color: burlywood;
+
+}
+
+tr{
+    color: white;
+    font-family: sans-serif;
+}
+th{
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+    ;
+}
+#cardapio{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://th.bing.com/th/id/R.cd34b3076a3269ecef991ad7bdc39eee?rik=7VqjJSF2Ka6YXQ&pid=ImgRaw&r=0);    
+}
+/* FIM DO CSS DAS TABELAS DO CARDÁPIO*/
