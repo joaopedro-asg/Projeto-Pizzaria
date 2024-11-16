@@ -24,7 +24,7 @@ header {
     margin-bottom: 55px;
 }
 
-.logo {
+.logo-header {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -68,6 +68,91 @@ nav {
     color: #ffff00;
 }
 /* HEADER */
+
+/* FOOTER */
+footer {
+    background-color: #11c5bc;
+    border-top-style: solid;
+    border-width: 5px;
+    border-top-color: #000;
+
+    padding: 15px;
+    margin-top: 55px;
+}
+
+.footer-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.contact-list  {
+    list-style: none;
+    font-size: 15px;
+    padding-block: 15px;
+}
+
+.contact-list li:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-list li {
+    padding: 5px;
+}
+
+.contact-list a {
+    text-decoration: none;
+}
+
+.subscrive {
+    text-align: center;
+}
+
+#email {
+    background-color: #11c5bc;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid;
+    outline: 0;
+}
+
+#email:focus {
+    border-bottom: 2px solid #ffff00;
+}
+
+#buttom {
+    background-color: #e31714;
+    padding: 5px;
+    color: #ffff;
+}
+
+#buttom:hover {
+    color: #ffff00;
+}
+
+.logo-footer {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.copy {
+    text-align: center;
+    font-size: 17px;
+}
+
+footer hr {
+    margin: 15px;
+    border-color: #e31714;
+}
+
+footer p {
+    text-align: justify;
+}
+
+/* FOOTER */
 
 /* INÍCIO DO CSS DAS TABELAS DO CARDÁPIO*/
 table{
