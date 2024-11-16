@@ -3,11 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    display: border-box;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
 
-/* INÍCIO DO CSS DAS TABELAS DO CARDÁPIO*/
-table{
+/* MARK: - TABELAS DO CARDÁPIO*/
+.cardapio{
     background-color: black;
     margin-left: auto; 
     margin-right: auto;
@@ -53,4 +54,61 @@ th{
     margin-right: 10%;
     background-image: url(https://th.bing.com/th/id/R.cd34b3076a3269ecef991ad7bdc39eee?rik=7VqjJSF2Ka6YXQ&pid=ImgRaw&r=0);    
 }
-/* FIM DO CSS DAS TABELAS DO CARDÁPIO*/
+
+/* MARK: - FORMULÁRIO */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #161616;
+    text-decoration: none;
+}
+
+
+.form{
+    display:flexbox;
+    padding: 1rem;
+    justify-content: center;
+}
+
+fieldset{
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+#observacoes{
+    resize: none;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: #e31714;
+    color: #fff;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
