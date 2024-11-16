@@ -27,7 +27,6 @@ header {
 .logo-header {
     width: 150px;
     height: 150px;
-    object-fit: cover;
     position: relative;
     top: 30px;
 }
@@ -135,7 +134,6 @@ footer {
 .logo-footer {
     width: 150px;
     height: 150px;
-    object-fit: cover;
 }
 
 .copy {
