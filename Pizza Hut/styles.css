@@ -106,7 +106,7 @@ footer hr {
 }
 
 footer p {
-    text-align: center;
+    text-align: justify;
     color: rgb(255,255,255, 0.8);
     font-size: 0.8em;
 }
