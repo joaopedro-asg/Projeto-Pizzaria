@@ -149,6 +149,32 @@ footer p {
     padding: 1rem;
 }
 
+/* MARK: LOJAS */
+#stores {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stores-h2 {
+    background-color: #e31714;
+    margin-block: 2rem;
+    padding: 0.5rem;
+    color: #ffffff;
+}
+
+.stores {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.stores th, td {
+    padding: 0.5rem;
+}
+
+.stores tbody {
+    padding: 1rem;
+}
+
 /* MARK: - CARDAPIO */
 .cardapio{
     border-collapse: collapse;

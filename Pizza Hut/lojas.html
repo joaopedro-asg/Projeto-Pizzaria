@@ -21,82 +21,81 @@
             </ul>
         </nav>
       </header>
-
+    <!-- Principal da Lojas -->
     <main>
-        <section aria-labelledby="titulo-localizador">
-            <header class="titulo-e-descricao-container">
-                <h1 id="titulo-localizador">Encontre a loja mais próxima!</h1>
-                <p class="descricao">Localize a unidade Pizza Delícia mais próxima e confira nossos horários e atendimento</p>
-            </header>
-
-            <article class="unidades-container">
-                <header>
-                    <h2>Nossas Unidades</h2>
-                </header>
-                <div class="tabela-unidades-container">
-                    <table>
-
-                        <caption>Lista de Endereços, Telefones e Horários de Funcionamento</caption>
-                        <thead>
-                            <tr>
-                                <th>Endereço</th>
-                                <th>Telefone</th>
-                                <th>Horário de Funcionamento</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-                            <tr>
-                                <td>Av. Washington Soares, 85 - Edson Queiroz, Fortaleza - CE, 60811-341</td>
-                                <td>(85) 1234-5678</td>
-                                <td>Seg a Dom: 10h às 23h</td>
-                            </tr>
-                            <tr>
-                                <td>Av. Lineu Machado, 419 - Jóquei Clube, Fortaleza - CE, 60520-102</td>
-                                <td>(85) 8765-4321</td>
-                                <td>Seg a Sex: 24h</td>
-                            </tr>
-                            <tr>
-                                <td>R. José de Matos França, 690 - Lagoa Seca, Juazeiro do Norte - CE, 63040-190</td>
-                                <td>(88) 1357-2468</td>
-                                <td>Seg a Sex: 11h às 22h</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
+        <section id="stores">
+            <article>
+                <br>
+                <h1>Encontre a loja mais próxima!</h1>
+                <p>Localize uma unidade do Pizza Hut mais próxima e confira nossos horários de atendimento.</p>
             </article>
-
+            <!-- Tabela de endereços, telefones e horários -->
+            <article>
+                <h2 class="stores-h2">Nossas Unidades</h2>
+                <table class="stores">
+                    <thead>
+                        <tr>
+                            <th>Endereço</th>
+                            <th>Telefone</th>
+                            <th>Horário de Funcionamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Av. Beira Mar, 2500 - LOJA 04 - Meireles, Fortaleza - CE, 60165-120</td>
+                            <td>(85) 3486-1000</td>
+                            <td>Domingo a Domingo: 16h - 23h</td>
+                        </tr>
+                        <tr>
+                            <td>Av. Lineu Machado, 419 - Jóquei Clube, Fortaleza - CE, 60520-102</td>
+                            <td>(85) 3486-1000</td>
+                            <td>Segunda a Sábado: 10h - 22h</td>
+                        </tr>
+                        <tr>
+                            <td>Av. Washington Soares, 85 - Edson Queiroz, Fortaleza - CE, 60811-341</td>
+                            <td>(85) 3486-1000</td>
+                            <td>Domingo a Domingo: 12h - 21h</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Lista de Endereços, Telefones e Horários de Funcionamento</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+            <!-- Localização no mapa -->
             <section>
-                <header>
-                    <h2>Localização no Mapa</h2>
-                </header>
+                <h2 class="stores-h2">Localização no Mapa</h2>
                 <div>
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dSF_8WapuQ1T39S2vJD-yQZmLVukLBk&ehbc=2E312F" width="640" height="480"> </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.63512156047!2d-38.537525499999994!3d-3.758162499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c7486efb03b2ab%3A0x38df77b47e37072b!2sAv.%20Beira%20Mar%2C%202500%20-%20LOJA%2004%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060165-120!3m2!1d-3.7259553!2d-38.496401899999995!5e0!3m2!1spt-BR!2sbr!4v1731870976595!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127398.73465778102!2d-38.656890465189036!3d-3.7643226181690115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c74c075136f97b%3A0x94dfb0c6c8588997!2sAv.%20Lineu%20Machado%2C%20419%20-%20J%C3%B3quei%20Clube%2C%20Fortaleza%20-%20CE%2C%2060520-102!3m2!1d-3.7643264999999997!2d-38.5744885!5e0!3m2!1spt-BR!2sbr!4v1731871114079!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.75913534168!2d-38.57119746522639!3d-3.7573133253555735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c748a41b6180f9%3A0x36eec3c10979e39c!2sAv.%20Washington%20Soares%2C%2085%20-%20Edson%20Queiroz%2C%20Fortaleza%20-%20CE%2C%2060811-341!3m2!1d-3.7573171999999997!2d-38.488795499999995!5e0!3m2!1spt-BR!2sbr!4v1731871364598!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
-
+            <!-- Ambiente interno -->
             <section>
-                <header>
-                    <h2>Ambiente Aconchegante</h2>
-                </header>
+                <h2 class="stores-h2">Ambiente Aconchegante</h2>
                 <figure>
                     <img src="https://turismoetc.com.br/wp-content/uploads/2015/04/pizza.jpg" alt="Imagem do ambiente aconchegante da Pizza Delícia" width="600" height="400">
                     <figcaption>Conheça o ambiente acolhedor de nossas lojas</figcaption>
                 </figure>
+                <br>
             </section>
         </section>
     </main>
-
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Pizza Delicia</p>
         <p>Entre em contato: (85) 988776655 | pizzaDelicia2024@gmail.com</p>
-        <figure>
-            <!-- <a href="https://www.instagram.com/twobrotherspizzas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                target="_blank" aria-label="Instagram Two Brothers Pizzas">
-                <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png" alt="Instagram logo Two Brothers Pizzas" width="60px" height="auto" />
-            </a> -->
-        </figure>
+            <a href="https://www.instagram.com/twobrotherspizzas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank">
+                <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png" alt="Instagram logo Two Brothers Pizzas"/>
+            </a>
         <p>​​Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções, combos e preços podem variar de acordo com a sua localização. Se ocorrer qualquer divergência nos valores dos produtos ou promoções, o preço válido é o apresentado no carrinho de compras. Preços e condições de pagamento exclusivos para compras via internet. As promoções são válidas enquanto durarem os estoques. A Pizza Hut se reserva o direito de alterar e/ou remover itens ou promoções do cardápio sem aviso prévio. O horário de funcionamento e de entrega varia de acordo com a sua localização e unidade escolhida.</p>
     </footer>
 </body>
