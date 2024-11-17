@@ -175,6 +175,18 @@ footer p {
     padding: 1rem;
 }
 
+#maps iframe {
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#environment img {
+    border-radius: 2rem;
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+}
+
 /* MARK: - CARDAPIO */
 .cardapio{
     border-collapse: collapse;
