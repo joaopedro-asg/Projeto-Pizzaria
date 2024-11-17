@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lojas</title>
     <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header>
         <figure>
-          <img class="logo-header" src="midias/logo.png" alt="logo">
+            <img class="logo-header" src="midias/logo.png" alt="logo">
         </figure>
         <nav>
             <ul class="nav-list">
-                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="cardapio.html" target="_blank">Cardápio</a></li>
                 <li><a href="pedidos.html" target="_blank">Pedidos</a></li>
                 <li><a href="promocoes.html" target="_blank">Promoções</a></li>
             </ul>
         </nav>
-      </header>
+    </header>
     <!-- Principal da Lojas -->
     <main>
         <section id="stores">
@@ -67,21 +69,33 @@
             <!-- Localização no mapa -->
             <section id="maps">
                 <h2 class="stores-h2">Localização no Mapa</h2>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.63512156047!2d-38.537525499999994!3d-3.758162499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c7486efb03b2ab%3A0x38df77b47e37072b!2sAv.%20Beira%20Mar%2C%202500%20-%20LOJA%2004%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060165-120!3m2!1d-3.7259553!2d-38.496401899999995!5e0!3m2!1spt-BR!2sbr!4v1731870976595!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127398.73465778102!2d-38.656890465189036!3d-3.7643226181690115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c74c075136f97b%3A0x94dfb0c6c8588997!2sAv.%20Lineu%20Machado%2C%20419%20-%20J%C3%B3quei%20Clube%2C%20Fortaleza%20-%20CE%2C%2060520-102!3m2!1d-3.7643264999999997!2d-38.5744885!5e0!3m2!1spt-BR!2sbr!4v1731871114079!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.75913534168!2d-38.57119746522639!3d-3.7573133253555735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c748a41b6180f9%3A0x36eec3c10979e39c!2sAv.%20Washington%20Soares%2C%2085%20-%20Edson%20Queiroz%2C%20Fortaleza%20-%20CE%2C%2060811-341!3m2!1d-3.7573171999999997!2d-38.488795499999995!5e0!3m2!1spt-BR!2sbr!4v1731871364598!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="grid-iframe">
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.63512156047!2d-38.537525499999994!3d-3.758162499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c7486efb03b2ab%3A0x38df77b47e37072b!2sAv.%20Beira%20Mar%2C%202500%20-%20LOJA%2004%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060165-120!3m2!1d-3.7259553!2d-38.496401899999995!5e0!3m2!1spt-BR!2sbr!4v1731870976595!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127398.73465778102!2d-38.656890465189036!3d-3.7643226181690115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c74c075136f97b%3A0x94dfb0c6c8588997!2sAv.%20Lineu%20Machado%2C%20419%20-%20J%C3%B3quei%20Clube%2C%20Fortaleza%20-%20CE%2C%2060520-102!3m2!1d-3.7643264999999997!2d-38.5744885!5e0!3m2!1spt-BR!2sbr!4v1731871114079!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127399.75913534168!2d-38.57119746522639!3d-3.7573133253555735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x7c748a41b6180f9%3A0x36eec3c10979e39c!2sAv.%20Washington%20Soares%2C%2085%20-%20Edson%20Queiroz%2C%20Fortaleza%20-%20CE%2C%2060811-341!3m2!1d-3.7573171999999997!2d-38.488795499999995!5e0!3m2!1spt-BR!2sbr!4v1731871364598!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </section>
             <!-- Ambiente interno -->
             <section id="environment">
                 <h2 class="stores-h2">Ambiente Aconchegante</h2>
                 <figure>
-                    <img src="https://turismoetc.com.br/wp-content/uploads/2015/04/pizza.jpg" alt="Imagem do ambiente aconchegante da Pizza Delícia" width="600" height="400">
+                    <img src="https://turismoetc.com.br/wp-content/uploads/2015/04/pizza.jpg"
+                        alt="Imagem do ambiente aconchegante da Pizza Delícia" width="600" height="400">
                     <figcaption>Conheça o ambiente acolhedor de nossas lojas</figcaption>
                 </figure>
                 <br>
@@ -91,12 +105,17 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Pizza Hut</p>
-        <p>Entre em contato: (85) 3486-1000 |  faleconosco@pizzahut.com.br</p>
-            <a href="https://www.instagram.com/pizzahutbrazil"
-                target="_blank">
-                <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png" alt="Instagram logo Two Brothers Pizzas"/>
-            </a>
-        <p>Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções, combos e preços podem variar de acordo com a sua localização. Se ocorrer qualquer divergência nos valores dos produtos ou promoções, o preço válido é o apresentado no carrinho de compras. Preços e condições de pagamento exclusivos para compras via internet. As promoções são válidas enquanto durarem os estoques. A Pizza Hut se reserva o direito de alterar e/ou remover itens ou promoções do cardápio sem aviso prévio. O horário de funcionamento e de entrega varia de acordo com a sua localização e unidade escolhida.</p>
+        <p>Entre em contato: (85) 3486-1000 | faleconosco@pizzahut.com.br</p>
+        <a href="https://www.instagram.com/pizzahutbrazil" target="_blank">
+            <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png"
+                alt="Instagram logo Two Brothers Pizzas" />
+        </a>
+        <p>Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções, combos e preços podem
+            variar de acordo com a sua localização. Se ocorrer qualquer divergência nos valores dos produtos ou
+            promoções, o preço válido é o apresentado no carrinho de compras. Preços e condições de pagamento exclusivos
+            para compras via internet. As promoções são válidas enquanto durarem os estoques. A Pizza Hut se reserva o
+            direito de alterar e/ou remover itens ou promoções do cardápio sem aviso prévio. O horário de funcionamento
+            e de entrega varia de acordo com a sua localização e unidade escolhida.</p>
     </footer>
 </body>
 
