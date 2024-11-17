@@ -261,7 +261,13 @@ footer p {
     padding: 1rem;
 }
 
+.grid-iframe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 #maps iframe {
+    width: 100%;
     border-radius: 2rem;
     padding: 1rem;
 }
@@ -357,9 +363,14 @@ a {
 }
 
 /* Responsive */
-/* @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
     .box-article{
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
-} */
+
+    .grid-iframe{
+        display: flex;
+        flex-direction: column;
+    }
+}
