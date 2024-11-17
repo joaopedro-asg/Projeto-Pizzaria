@@ -1,95 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    display: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER */
-header {
-    background-color: #e31714;
-    color: #ffffff;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-bottom-color: #000;
-    max-height: 80px;
+html {
+    scroll-behavior: smooth;
+}
 
+/* MARK: - HEADER */
+header {
     display: flex;
+    background-color: #e31714;
+    border-bottom: 5px solid #000;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    
-    padding: 15px;
-    margin-bottom: 55px;
-}
-
-.logo-header {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    top: 30px;
-}
-
-header h1 {
-    font-size: 50px;
-    font-style: italic;
-    color: #ffff00;
-}
-
-nav {
-    margin-inline: auto;
-    max-width: 1280px;
-}
-
-.nav-list{
-    display: flex;
-    gap: 40px;
+    font-size: 1rem;
     list-style: none;
 }
 
-.nav-list a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    padding-block: 15px;
+nav a{
+    color: #fff
 }
 
-.nav-list a:visited {
-    color: #ffffff;
+.logo-header {
+    width: 15%;
+    height: auto;
+    position: relative;
+    padding: 15px;
 }
 
 .nav-list a:hover {
     color: #11c5bc;
 }
 
-.nav-list a:active {
-    color: #ffff00;
-}
-/* HEADER */
-
-/* FOOTER */
-footer {
-    background-color: #11c5bc;
-    border-top-style: solid;
-    border-width: 5px;
-    border-top-color: #000;
-
-    padding: 15px;
-    margin-top: 55px;
-}
-
-.footer-itens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-}
-
-.contact-list  {
+.contact-list {
     list-style: none;
-    font-size: 15px;
-    padding-block: 15px;
+    font-size: 1em;
+    color: #fff;
 }
 
 .contact-list li:first-child {
@@ -109,31 +60,39 @@ footer {
     text-align: center;
 }
 
-#email {
-    background-color: #11c5bc;
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid;
-    outline: 0;
-}
-
-#email:focus {
-    border-bottom: 2px solid #ffff00;
-}
-
 #buttom {
     background-color: #e31714;
     padding: 5px;
-    color: #ffff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 
 #buttom:hover {
     color: #ffff00;
 }
 
-.logo-footer {
-    width: 150px;
-    height: 150px;
+/* MARK: - FOOTER PADRÃO */
+footer {
+    background-color: #660d0d;
+    border-top: 5px solid #000;
+    gap: 1rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
 }
 
 .copy {
@@ -147,70 +106,71 @@ footer hr {
 }
 
 footer p {
-    text-align: justify;
-}
-
-/* FOOTER */
-
-/* INÍCIO DO CSS DAS TABELAS DO CARDÁPIO*/
-.cardapio{
-    background-color: black;
-    margin-left: auto; 
-    margin-right: auto;
-    border-color: burlywood;
-
-    
-}
-
-caption{
-    font-size: 20px;
-    background-image: linear-gradient(to right, #e31714, red, #e31714);
-    color: rgb(black);
-    font-weight: bold;
-    text-shadow: 
-    -1px -1px 0 #ffffff,  
-         1px -1px 0 #ffffff,
-        -1px  1px 0 #ffffff,
-         1px  1px 0 #ffffff; 
-    ;
-}
-
-thead{
-    background-color: burlywood;
-
-}
-
-tr{
-    color: white;
-    font-family: sans-serif;
-}
-th{
-    color: white;
-    text-shadow: 
-    -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000; 
-    ;
-}
-#cardapio{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-image: url(https://th.bing.com/th/id/R.cd34b3076a3269ecef991ad7bdc39eee?rik=7VqjJSF2Ka6YXQ&pid=ImgRaw&r=0);    
+    color: rgb(255,255,255, 0.8);
+    font-size: 0.8em;
 }
 
+/* MARK: - CARDAPIO */
+.cardapio{
+    border-collapse: collapse;
+}
+
+.cardapio th, td{
+    padding: 0.5rem;
+}
+
+.cardapio thead {
+    background-color: burlywood;
+}
+
+.cardapio tbody{
+    padding: 1rem;
+}
+
+
+#cardapio {
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.box-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-article img{
+    border-radius: 2rem;
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+}
 
 /* MARK: - FORMULÁRIO */
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.form {
     padding: 1rem;
-    align-items: center;
-    background-color: #fff;
+    justify-content: center;
 }
 
+fieldset {
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+#observacoes {
+    resize: none;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+/* MARK: - GENERAL LISTS */
 ul {
     list-style: none;
     padding: 0;
@@ -226,35 +186,10 @@ a {
     text-decoration: none;
 }
 
-
-.form{
-    display:flexbox;
-    padding: 1rem;
-    justify-content: center;
-}
-
-fieldset{
-    padding: 1.5rem;
-    border-radius: 5px;
-}
-
-#observacoes{
-    resize: none;
-    width: 100%;
-    padding: 0.5rem;
-}
-
-.info{
-    display: flex;
-    flex-direction: row;
-}
-
-footer{
-    background-color: #e31714;
-    color: #fff;
-    display: flex;
-    padding: 1rem;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+/* Responsive */
+/* @media screen and (max-width: 480px){
+    .box-article{
+        display: flex;
+    flex-direction: column;
+    }
+} */
