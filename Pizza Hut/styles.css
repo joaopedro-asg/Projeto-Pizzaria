@@ -111,6 +111,44 @@ footer p {
     font-size: 0.8em;
 }
 
+/* MARK: - PROMOCOES */
+.promo {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.promo th, td {
+    padding: 0.5rem;
+}
+
+.promo thead {
+    background-color: #ffff00;
+}
+
+.promo tbody {
+    padding: 1rem;
+}
+
+#promo {
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-promo h2 {
+    margin: 2rem;
+}
+
+.main-promo h1 {
+    margin: 1rem;
+}
+
+.main-promo img {
+    border-radius: 2rem;
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+}
+
 /* MARK: - CARDAPIO */
 .cardapio{
     border-collapse: collapse;
