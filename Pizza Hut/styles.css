@@ -14,8 +14,8 @@ html {
 /* MARK: - HEADER */
 header {
     display: flex;
-    background-color: #e31714;
-    border-bottom: 5px solid #000;
+    background-color: #a12118;
+    border-bottom: 2px solid #000;
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
@@ -73,9 +73,8 @@ nav a{
 }
 
 /* MARK: - FOOTER PADRÃO */
-footer {
-    background-color: #660d0d;
-    border-top: 5px solid #000;
+/* footer {
+    background-color: rgb(35, 31, 32);
     gap: 1rem;
     padding: 15px;
     display: flex;
@@ -109,6 +108,41 @@ footer p {
     text-align: justify;
     color: rgb(255,255,255, 0.8);
     font-size: 0.8em;
+} */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+footer p{
+    color: white;
+}
+
+.footer-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.contact-footer {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 10px;
 }
 
 /* MARK: - HOME */
@@ -230,7 +264,7 @@ footer p {
     height: auto;
 }
 
-/* Carousel feature -> Automatico*/
+/* MARK: - Carousel feature -> Automatico*/
 
 .carousel {
     display: flex;
@@ -404,8 +438,12 @@ a {
     font-weight: bold;
 }
 
-/* Responsive */
+/* MARK: - RESPONSIVIDADE */
 @media screen and (max-width: 480px){
+    .logo-header {
+        width: 40%;
+    }
+
     .box-article{
         display: flex;
         flex-direction: column;
@@ -420,6 +458,10 @@ a {
     }
 
     .carousel {
+        width: 100%;
+    }
+
+    #environment img {
         width: 100%;
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header>
         <figure>
-          <img class="logo-header" src="midias/logo.png" alt="logo">
+            <img class="logo-header" src="midias/logo.png" alt="logo">
         </figure>
         <nav>
             <ul class="nav-list">
@@ -59,11 +61,14 @@
                             <option value="frango_Catupiry">Frango/Catupiry</option>
                             <option value="chocolate_com_morango">Chocolate com morango</option>
                         </select>
-                        <p>adicionais Extras:</p>
-                        <label><input type="checkbox" name="adicionais" value="molho_de_tomate">Molho de Tomate </label>
+
+                        <p>Adicionais Extras:</p>
+                        <label><input type="checkbox" name="adicionais" value="molho_de_tomate">Molho de Tomate
+                        </label>
                         <label><input type="checkbox" name="adicionais" value="mussarela"> Mussarela</label>
                         <label><input type="checkbox" name="adicionais" value="cebola"> Cebola</label>
                         <label><input type="checkbox" name="adicionais" value="pimentao"> Pimentão</label>
+
                         <p>Tamanho da Pizza:</p>
                         <label><input type="radio" name="tamanho" value="pequena" required> Pequena</label>
                         <label><input type="radio" name="tamanho" value="media"> Média</label>
@@ -92,16 +97,30 @@
             </form>
         </section>
     </main>
-<!-- Footer -->
-<footer>
-    <p>&copy; 2024 Pizza Hut</p>
-    <p>Entre em contato: (85) 3486-1000 |  faleconosco@pizzahut.com.br</p>
-        <a href="https://www.instagram.com/pizzahutbrazil"
-            target="_blank">
-            <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png" alt="Instagram logo Two Brothers Pizzas"/>
-        </a>
-    <p>Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções, combos e preços podem variar de acordo com a sua localização. Se ocorrer qualquer divergência nos valores dos produtos ou promoções, o preço válido é o apresentado no carrinho de compras. Preços e condições de pagamento exclusivos para compras via internet. As promoções são válidas enquanto durarem os estoques. A Pizza Hut se reserva o direito de alterar e/ou remover itens ou promoções do cardápio sem aviso prévio. O horário de funcionamento e de entrega varia de acordo com a sua localização e unidade escolhida.</p>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Pizza Hut</p>
+            <p class="info-text">Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções,
+                combos e preços podem variar de acordo com a sua localização. Se ocorrer qualquer divergência nos
+                valores dos produtos ou promoções, o preço válido é o apresentado no carrinho de compras. Preços e
+                condições de pagamento exclusivos para compras via internet. As promoções são válidas enquanto durarem
+                os estoques. A Pizza Hut se reserva o direito de alterar e/ou remover itens ou promoções do cardápio sem
+                aviso prévio. O horário de funcionamento e de entrega varia de acordo com a sua localização e unidade
+                escolhida.</p>
+        </div>
+        <div class="contact-footer">
+            <p>Entre em contato: (85) 3486-1000 | faleconosco@pizzahut.com.br</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/pizzahutbrazil" target="_blank">
+                    <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png"
+                        alt="Instagram logo Pizza Hut" width="40px" height="40px" /></a>
+                <a href="https://www.facebook.com/pizzahutbrasil" target="_blank" data-testid="facebook-test-id"
+                    rel="noreferrer"><img src="https://static-00.iconduck.com/assets.00/facebook-icon-2048x2048-43xp2umy.png" title="ícone Facebook"
+                        alt="Ícone com a logo do facebook na cor branca." width="32px" height="32px"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
