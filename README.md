@@ -10,4 +10,4 @@ João Pedro Alves da Silva Gomes, José Vianei Castro e Silva Filho, Ingryd Cord
 Além da divisão original, todos os membros da equipe se ajudaram em suas respectivas atribuições.
 
 ## Obs.
-A Camila Christina Malessa infelizmente saiu do curso e não pode participar da atividade.
+A Camila Christina Malessa de Oliviera infelizmente saiu do curso e não pode participar da atividade.
