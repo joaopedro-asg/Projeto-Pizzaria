@@ -224,16 +224,58 @@ footer p {
     margin: 2rem;
 }
 
-.main-promo h1 {
-    margin: 1rem;
-}
-
 .main-promo img {
     border-radius: 2rem;
-    width: 30%;
+    width: 60%;
     height: auto;
-    padding: 1rem;
 }
+
+/* Carousel feature -> Automatico*/
+
+.carousel {
+    display: flex;
+    width: 80%;
+    height: fit-content; 
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .carousel-line {
+    display: flex;
+    gap: 1rem;
+    animation: slide 8s linear infinite;
+  }
+  
+  .carousel-item {
+    flex: 0 0 fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    width: 50%;
+    height: auto;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    75% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 /* MARK: LOJAS */
 #stores {
@@ -372,5 +414,12 @@ a {
     .grid-iframe{
         display: flex;
         flex-direction: column;
+    }
+    .main-promo img{
+        width: 100%;
+    }
+
+    .carousel {
+        width: 100%;
     }
 }
