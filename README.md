@@ -9,5 +9,7 @@ João Pedro Alves da Silva Gomes, José Vianei Castro e Silva Filho, Ingryd Cord
 
 Além da divisão original, todos os membros da equipe se ajudaram em suas respectivas atribuições.
 
+Desde o início da atividade foi usado o github.
+
 ## Obs.
 A Camila Christina Malessa de Oliviera infelizmente saiu do curso e não pode participar da atividade.
