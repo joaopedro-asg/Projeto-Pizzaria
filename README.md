@@ -1,3 +1,8 @@
+## Turma
+* FSN3
+* Professora: Fernanda Nascimento
+* Facilitador: Gabriel Bezerra
+  
 ## Equipe
 João Pedro Alves da Silva Gomes, José Vianei Castro e Silva Filho, Ingryd Cordeiro Duarte, Kleber Lucas Alves Silva.
 
