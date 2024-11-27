@@ -19,7 +19,7 @@
 - Kleber Lucas Alves Silva.
 
 ## Atribuições
-- Ingryd - Footer, Formulário da página Pedidos e Main da páginas Promoções
+- Ingryd - Footer, Formulário da página Pedidos, Main da páginas Promoções e Responsividade
 - João Pedro - Header, Footer e Main da página Lojas
 - José Vianei - Main da página Cardápio
 - Kleber - Main da página Home
