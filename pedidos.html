@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <figure>
+            <img class="logo-header" src="midias/logo.png" alt="logo">
+        </figure>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cardapio.html" target="_blank">Cardápio</a></li>
+                <li><a href="promocoes.html" target="_blank">Promoções</a></li>
+                <li><a href="lojas.html" target="_blank">Lojas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <h1>Fala aqui o seu Pedido!</h1>
+            <h3>Preencha esse formulário abaixo para realizar o seu pedido</h3>
+
+            <form action="enviar_pedido.html" method="post">
+                <!-- MARK: Informações Pessoais -->
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <div class="input-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Digite seu email">
+                    </div>
+                    <div class="input-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999"
+                            pattern="\(\d{2}\) \d{5}-\d{4}" required>
+                    </div>
+                </fieldset>
+
+                <!-- MARK: Pedido -->
+                <fieldset>
+                    <legend>Escolha seu sabor de Pizza</legend>
+                    <div class="input-group">
+                        <label for="pizza">Escolha de Pizza:</label>
+                        <select id="pizza" name="pizza" required>
+                            <option value="" disabled selected>Selecione uma pizza</option>
+                            <option value="marguerita">Marguerita</option>
+                            <option value="calabresa">Calabresa</option>
+                            <option value="portuguesa">Portuguesa</option>
+                            <option value="quatro_queijos">Quatro Queijos</option>
+                            <option value="frango_Catupiry">Frango/Catupiry</option>
+                            <option value="chocolate_com_morango">Chocolate com morango</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <p>Adicionais Extras:</p>
+                        <label><input type="checkbox" name="adicionais" value="molho_de_tomate"> Molho de Tomate</label>
+                        <label><input type="checkbox" name="adicionais" value="mussarela"> Mussarela</label>
+                        <label><input type="checkbox" name="adicionais" value="cebola"> Cebola</label>
+                        <label><input type="checkbox" name="adicionais" value="pimentao"> Pimentão</label>
+                    </div>
+
+                    <div class="input-group">
+                        <p>Tamanho da Pizza:</p>
+                        <label><input type="radio" name="tamanho" value="pequena" required> Pequena</label>
+                        <label><input type="radio" name="tamanho" value="media"> Média</label>
+                        <label><input type="radio" name="tamanho" value="grande"> Grande</label>
+                    </div>
+                </fieldset>
+
+                <!-- Observações -->
+                <fieldset>
+                    <legend>Observações Adicionais</legend>
+                    <div class="input-group">
+                        <label for="observacoes">Observações:</label>
+                        <textarea id="observacoes" name="observacoes" rows="4" cols="50"
+                            placeholder="Escreva suas observações..."></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Método de Pagamento</legend>
+                    <div class="input-group">
+                        <label for="pagamento">Escolha o método de pagamento:</label>
+                        <select id="pagamento" name="pagamento" required>
+                            <option value="" disabled selected>Escolha o método de pagamento</option>
+                            <option value="dinheiro">Dinheiro</option>
+                            <option value="cartao_credito">Cartão de Crédito</option>
+                            <option value="cartao_debito">Cartão de Débito</option>
+                            <option value="pix">PIX</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <button id="form-button" type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Pizza Hut</p>
+        </div>
+        <div class="contact-footer">
+            <p>Entre em contato: (85) 3486-1000 | faleconosco@pizzahut.com.br</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/pizzahutbrazil" target="_blank">
+                    <img src="https://img.icons8.com/m_rounded/200/FFFFFF/instagram-new.png"
+                        alt="Instagram logo Pizza Hut" width="40px" height="40px" /></a>
+                <a href="https://www.facebook.com/pizzahutbrasil" target="_blank" data-testid="facebook-test-id"
+                    rel="noreferrer"><img
+                        src="https://static-00.iconduck.com/assets.00/facebook-icon-2048x2048-43xp2umy.png"
+                        title="ícone Facebook" alt="Ícone com a logo do facebook na cor branca." width="32px"
+                        height="32px"></a>
+            </div>
+        </div>
+        <p class="info-text">Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções,
+            combos e preços podem variar de acordo com a sua localização. Se ocorrer qualquer divergência nos
+            valores dos produtos ou promoções, o preço válido é o apresentado no carrinho de compras. Preços e
+            condições de pagamento exclusivos para compras via internet. As promoções são válidas enquanto durarem
+            os estoques. A Pizza Hut se reserva o direito de alterar e/ou remover itens ou promoções do cardápio sem
+            aviso prévio. O horário de funcionamento e de entrega varia de acordo com a sua localização e unidade
+            escolhida.</p>
+    </footer>
+</body>
+
+</html>
